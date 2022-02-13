@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+section {
+  background-color: #ffeddb;
+  width: 100%;
+  height: 615px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container img {
+  width: 120px;
+  height: 120px;
+  margin-left: 100px;
+  margin-top: -21px;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 100px;
+  margin-top: 25px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  font-family: "Roboto";
+}
+
+nav ul li:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #9d5a27;
+  width: 30%;
+  margin: auto;
+  padding-bottom: 4px;
+}
+
+/* Bingkai */
+.bingkai img {
+  position: absolute;
+  width: 350px;
+  height: 420px;
+  left: 465px;
+  top: 110px;
+  border-radius: 250px 250px 0px 0px;
+}
+
+.caption {
+  font-family: "Inter";
+  font-weight: 150;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.3em;
+  margin-left: 589px;
+  margin-top: 440px;
+}
